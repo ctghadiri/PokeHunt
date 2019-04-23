@@ -1,0 +1,76 @@
+[{
+    "id":1,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/bulbasaur.png",
+    "name": "bulbasaur"
+},
+{
+    "id":2,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/ivysaur.png",
+    "name": "ivysaur"
+},
+{
+    "id":3,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/venusaur.png",
+    "name": "venusaur"
+},
+{
+    "id":4,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charmander.png",
+    "name":"charmander"
+},
+{
+    "id":5,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charmeleon.png",
+    "name":"charmeleon"
+},
+{
+    "id":6,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charizard.png",
+    "name":"charizard"
+},
+{
+    "id":7,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/squirtle.png",
+    "name":"squirtle"
+},
+{
+    "id":8,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/wartortle.png",
+    "name":"wartortle"
+},
+{
+    "id":9,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/blastoise.png",
+    "name":"blastoise"
+},
+{
+    "id":10,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/caterpie.png",
+    "name":"caterpie"
+},
+{
+    "id":11,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/metapod.png",
+    "name":"metapod"
+},
+{
+    "id":12,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/butterfree.png",
+    "name":"butterfree"
+},
+{
+    "id":13,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/weedle.png",
+    "name":"weedle"
+},
+{
+    "id":14,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/kakuna.png",
+    "name":"kakuna"
+},
+{
+    "id":15,
+    "image":"https://img.pokemondb.net/sprites/sun-moon/icon/beedrill.png",
+    "name":"beedrill"
+}
+]
