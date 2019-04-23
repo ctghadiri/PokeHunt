@@ -3,3 +3,8 @@ import PokeCard from "./components/PokeCard";
 import Wrapper from "./components/Wrapper";
 import pokemon from "./pokemon.json";
 
+class App extends Component {
+    state = {
+        pokemon
+    }
+}
