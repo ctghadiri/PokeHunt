@@ -30,7 +30,9 @@ class App extends Component {
     render () {
         return(
             <Wrapper>
+                <Score {score = state.score} />
                 <Title>Catch 'em all!</Title>
+
                 {this.state.pokemon.map(pokemon => (
                     <PokeCard onClick={this.catchPokemon}
                         id={pokemon.id}
