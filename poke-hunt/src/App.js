@@ -1,13 +1,14 @@
 import React, {Component} from "react";
 import PokeCard from "./components/PokeCard";
 import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
 import pokemon from "./pokemon.json";
 
 class App extends Component {
     state = {
         pokemon
     }
-}
+};
 
 render () {
     return(
