@@ -8,3 +8,12 @@ class App extends Component {
         pokemon
     }
 }
+
+render (){
+    return(
+        <Wrapper>
+
+        </Wrapper>
+    )
+}
+
