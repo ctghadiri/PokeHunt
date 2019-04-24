@@ -8,20 +8,20 @@ class App extends Component {
     state = {
         pokemon
     }
-};
 
-render () {
-    return(
-        <Wrapper>
-            <Title>Catch 'em all!</Title>
-            {this.state.map(pokemon => (
-                <PokeCard
-                    id={pokemon.id}
-                    image={pokemon.image}
-                />
-            ))}
-        </Wrapper>
+
+    render () {
+        return(
+            <Wrapper>
+                <Title>Catch 'em all!</Title>
+                {this.state.map(pokemon => (
+                    <PokeCard
+                        id={pokemon.id}
+                        image={pokemon.image}
+                    />
+                ))}
+            </Wrapper>
     )
+    };
 };
-
 export default App;
