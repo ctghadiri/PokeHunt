@@ -15,5 +15,6 @@ render (){
 
         </Wrapper>
     )
-}
+};
 
+export default App;
