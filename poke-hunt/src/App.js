@@ -14,14 +14,22 @@ class App extends Component {
     }
 
     catchPokemon = id => {
-        const pokemon = this.state.pokemon
-        if(this.state.caught.includes(pokemon)){
-            this.state.caught = [];
-            this.state.score = 0;
+        const pokemonChoice = this.state.pokemon[id-1]
+        if(this.state.caught.includes(pokemonChoice)){
+            this.setState({
+                caught: [],
+                score: 0
+            });
         }
         else {
-            this.state.caught.push(pokemon);
-            this.state.score += 1;
+            this.setState(state => {
+                const caught = state.caught.concat(pokemonChoice)
+
+                return {
+                    caught,
+                    score: state.score + 1
+                }
+            });
         }
         this.setState({caught})
     }
@@ -30,7 +38,7 @@ class App extends Component {
     render () {
         return(
             <Wrapper>
-                <Score {score = state.score} />
+                <Score score = {this.state.score} />
                 <Title>Catch 'em all!</Title>
 
                 {this.state.pokemon.map(pokemon => (
