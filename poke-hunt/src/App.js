@@ -34,6 +34,8 @@ class App extends Component {
         this.setState({caught})
     }
 
+    function shuffle ()
+
 
     render () {
         return(
