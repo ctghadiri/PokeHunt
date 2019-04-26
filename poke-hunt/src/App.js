@@ -15,7 +15,8 @@ class App extends Component {
 
     catchPokemon = id => {
         const pokemonChoice = this.state.pokemon[id-1]
-        if(this.state.pokemon.clicked){
+        console.log("hi")
+        if(pokemonChoice.clicked){
             this.setState({
                 score: 0
             })
@@ -26,13 +27,12 @@ class App extends Component {
         }
         else {
                 this.setState( {
-                    pokemon: this.state.pokemon.clicked = true,
+                    pokemon: pokemonChoice.clicked = true,
                     score: this.state.score + 1
                 })
-                this.setState({pokemon: clicked = true})
-            }
-            // this.setState(this.shuffle(state.pokemon))
         }
+            // this.setState(this.shuffle(state.pokemon))
+    }
         // this.setState({caught})
     // }
 
@@ -50,7 +50,8 @@ class App extends Component {
                 <Title>Catch 'em all!</Title>
 
                 {this.state.pokemon.map(pokemon => (
-                    <PokeCard onClick={this.catchPokemon}
+                    <PokeCard 
+                        catchPokemon={this.catchPokemon}
                         id={pokemon.id}
                         image={pokemon.image}
                     />
