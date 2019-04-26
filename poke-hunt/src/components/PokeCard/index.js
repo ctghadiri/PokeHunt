@@ -1,12 +1,15 @@
 import React from "react";
-import "./style.css"; 
+import "./style.css";
 
-function PokeCard(props){
+function PokeCard(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img src={props.image} alt='Pokemon' />
+                <img src={props.image} alt={props.name} />
             </div>
+            <span onClick={() => props.catchPokemon(props.id)} className="catch">
+                𝘅
+            </span>
         </div>
     );
 };
