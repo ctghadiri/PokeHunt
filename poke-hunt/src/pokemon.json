@@ -1,76 +1,91 @@
 [{
     "id":1,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/bulbasaur.png",
-    "name": "bulbasaur"
+    "name": "bulbasaur",
+    "clicked": false
 },
 {
     "id":2,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/ivysaur.png",
-    "name": "ivysaur"
+    "name": "ivysaur",
+    "clicked": false
 },
 {
     "id":3,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/venusaur.png",
-    "name": "venusaur"
+    "name": "venusaur",
+    "clicked": false
 },
 {
     "id":4,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charmander.png",
-    "name":"charmander"
+    "name":"charmander",
+    "clicked": false
 },
 {
     "id":5,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charmeleon.png",
-    "name":"charmeleon"
+    "name":"charmeleon",
+    "clicked": false
 },
 {
     "id":6,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/charizard.png",
-    "name":"charizard"
+    "name":"charizard",
+    "clicked": false
 },
 {
     "id":7,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/squirtle.png",
-    "name":"squirtle"
+    "name":"squirtle",
+    "clicked": false
 },
 {
     "id":8,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/wartortle.png",
-    "name":"wartortle"
+    "name":"wartortle",
+    "clicked": false
 },
 {
     "id":9,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/blastoise.png",
-    "name":"blastoise"
+    "name":"blastoise",
+    "clicked": false
 },
 {
     "id":10,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/caterpie.png",
-    "name":"caterpie"
+    "name":"caterpie",
+    "clicked": false
 },
 {
     "id":11,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/metapod.png",
-    "name":"metapod"
+    "name":"metapod",
+    "clicked": false
 },
 {
     "id":12,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/butterfree.png",
-    "name":"butterfree"
+    "name":"butterfree",
+    "clicked": false
 },
 {
     "id":13,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/weedle.png",
-    "name":"weedle"
+    "name":"weedle",
+    "clicked": false
 },
 {
     "id":14,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/kakuna.png",
-    "name":"kakuna"
+    "name":"kakuna",
+    "clicked": false
 },
 {
     "id":15,
     "image":"https://img.pokemondb.net/sprites/sun-moon/icon/beedrill.png",
-    "name":"beedrill"
+    "name":"beedrill",
+    "clicked": false
 }
 ]
