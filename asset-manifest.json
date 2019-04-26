@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PokeHunt/static/css/main.148828e5.chunk.css",
+    "main.js": "/PokeHunt/static/js/main.0ecba45d.chunk.js",
+    "main.js.map": "/PokeHunt/static/js/main.0ecba45d.chunk.js.map",
+    "runtime~main.js": "/PokeHunt/static/js/runtime~main.f1171317.js",
+    "runtime~main.js.map": "/PokeHunt/static/js/runtime~main.f1171317.js.map",
+    "static/js/2.884c28c3.chunk.js": "/PokeHunt/static/js/2.884c28c3.chunk.js",
+    "static/js/2.884c28c3.chunk.js.map": "/PokeHunt/static/js/2.884c28c3.chunk.js.map",
+    "index.html": "/PokeHunt/index.html",
+    "precache-manifest.1b9effb8f73366935f39b33dc929341b.js": "/PokeHunt/precache-manifest.1b9effb8f73366935f39b33dc929341b.js",
+    "service-worker.js": "/PokeHunt/service-worker.js",
+    "static/css/main.148828e5.chunk.css.map": "/PokeHunt/static/css/main.148828e5.chunk.css.map"
+  }
+}
